@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smaczne Jedzenie</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Smaczne Jedzenie</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="about.html">O nas</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Witaj na stronie o smacznym jedzeniu!</h2>
+            <p><strong>Smaczne Jedzenie</strong> to miejsce, gdzie znajdziesz najlepsze przepisy i porady kulinarne.</p>
+            <img src="images/food.jpg" alt="Pyszne jedzenie">
+        </section>
+
+        <section>
+            <h2>Nasze ulubione przepisy</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Przepis</th>
+                        <th>Czas przygotowania</th>
+                        <th>Trudność</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Spaghetti Bolognese</td>
+                        <td>30 minut</td>
+                        <td>Średnia</td>
+                    </tr>
+                    <tr>
+                        <td>Sałatka Cezar</td>
+                        <td>20 minut</td>
+                        <td>Łatwa</td>
+                    </tr>
+                    <tr>
+                        <td>Tiramisu</td>
+                        <td>40 minut</td>
+                        <td>Trudna</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Dlaczego warto gotować z nami?</h2>
+            <ul>
+                <li>Świeże i zdrowe składniki</li>
+                <li>Proste i szybkie przepisy</li>
+                <li>Profesjonalne porady kulinarne</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Znajdź nas na:</h2>
+            <p>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Codzienny przepis</h2>
+            <p id="daily-recipe">Kliknij przycisk, aby zobaczyć przepis na dzisiaj!</p>
+            <button onclick="showRecipe()">Pokaż przepis</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smaczne Jedzenie. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
